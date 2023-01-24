@@ -545,3 +545,7 @@ function keyTyped() {
     save(palette + "-" + seed + ".png");
   }
 }
+
+function mousePressed(){
+  p=p*-1;
+}
